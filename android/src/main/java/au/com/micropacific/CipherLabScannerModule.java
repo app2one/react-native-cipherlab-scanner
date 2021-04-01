@@ -178,10 +178,6 @@ public class CipherLabScannerModule extends ReactContextBaseJavaModule {
 			filter.addAction(com.cipherlab.barcode.GeneralString.Intent_SOFTTRIGGER_DATA);
 			filter.addAction(com.cipherlab.barcode.GeneralString.Intent_PASS_TO_APP);
 			filter.addAction(com.cipherlab.barcode.GeneralString.Intent_READERSERVICE_CONNECTED);
-			filter.addAction(com.cipherlab.barcode.GeneralString.Intent_FUNC_BUTTON);
-			filter.addAction(com.cipherlab.barcode.GeneralString.Intent_FUNC_RELEASE_BUTTON);
-			
-			
 
             // MDR 26/04/2018 - Should be handled in Intent_READERSERVICE_CONNECTED handler, but we never get that intent
             // com.cipherlab.barcode.decoderparams.ReaderOutputConfiguration settings = new ReaderOutputConfiguration();
